@@ -40,14 +40,12 @@ header {
 }
 
 @keyframes logo {
-    50% {
-        left: 140px;
+    100% {
+        left: 240px;
         
     }
 
-    100% {
-        left: 30px;
-    }
+   
 }
 
 .navigation {
