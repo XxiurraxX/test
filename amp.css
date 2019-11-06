@@ -13,21 +13,21 @@ a {
 
 header {
     width: 100%;
-    height: 90px;
+    height: 110px;
     position: relative;
     border-bottom: 5px solid white;
     
     background: linear-gradient(
       180deg,
       #d60000,
-      #ffffff
+      #d60000
     );
 }
 
 .header-logo {
     position: absolute;
     left: 30px;
-    font-size: 65px;
+    font-size: 70px;
     color: #ffffff;
     line-height: 90px;
     cursor: pointer;
@@ -35,13 +35,13 @@ header {
     animation-duration: 4s;
     animation-fill-mode: forwards;
     background-color: #ff3d3d;
-    border: #d60000 1px solid;
-    border-radius: 40%;
+    border: #d60000 10px inset;
+    border-radius: 30%;
 }
 
 @keyframes logo {
     50% {
-        left: 340px;
+        left: 140px;
         
     }
 
@@ -59,9 +59,9 @@ li {
     float: left;
     cursor: pointer;
     margin-left: 15px;
-    font-size: 25px;
+    font-size: 35px;
     color: #ffffff;
-    line-height: 90px;
+    line-height: 110px;
     transition: 0.4s;
 }
 
@@ -182,16 +182,19 @@ main {
 
 }
 body {
-    background: linear-gradient(
-      180deg,
-      #ffb4b4,
-      #ffffff
-    );
+    background: #ffffff
 }
 
 .footer {
     width: 100%;
     height: 150px;
-    background-color: #ffb4b4;
+    background-color: #d60000;
     
+}
+
+.footer-text {
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 150px;
+    text-align: center;
 }
