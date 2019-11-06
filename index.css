@@ -32,7 +32,7 @@ header {
     line-height: 90px;
     cursor: pointer;
     animation-name: logo;
-    animation-duration: 2s;
+    animation-duration: 4s;
     animation-fill-mode: forwards;
     background-color: #ff3d3d;
     border: #d60000 1px solid;
@@ -42,6 +42,7 @@ header {
 @keyframes logo {
     50% {
         left: 340px;
+        
     }
 
     100% {
