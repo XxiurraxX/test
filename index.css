@@ -40,8 +40,12 @@ header {
 }
 
 @keyframes logo {
+    50% {
+        left: 340px;
+    }
+
     100% {
-        left: 540px;
+        left: 30px;
     }
 }
 
